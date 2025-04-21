@@ -39,16 +39,16 @@ sudo systemctl enable zabbix-server zabbix-agent2 apache2
 ### Задание 2
 
 ### Configuration > Hosts
-![Hosts](configuration-hosts.png)
+![Hosts](images/3.png)
 
 ### Monitoring > Latest data
-![Latest Data](Monitoring-Latest-data.png)
+![Latest Data](images/4.png)
 
 ### Метрики
-![Метрики](metrics.png)
+![Метрики](images/5.png)
 
 ### Лог Zabbix Agent
-![Agent Log](zabbix-agent.png)
+![Agent Log](images/6.png)
 
 Список команд для установки и конфигурирования Zabbix Agent:
 ```
