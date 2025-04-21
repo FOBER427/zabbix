@@ -38,14 +38,17 @@ sudo systemctl enable zabbix-server zabbix-agent2 apache2
 
 ### Задание 2
 
-Скриншот "Configuration > Hosts":
-![zbx-config-hosts](/img/zbx-config-hosts.png)
+### Configuration > Hosts
+![Hosts](Configuration-Hosts.png)
 
-Скриншот лога Zabbix Agent:
-![zbx-agent-log](/img/zbx-agent-log.png)
+### Monitoring > Latest data
+![Latest Data](Monitoring-Latest data.png)
 
-Скриншот "Monitoring > Latest data":
-![zbx-latest-data-hosts](/img/zbx-latest-data-hosts.png)
+### Метрики
+![Метрики](metrics.png)
+
+### Лог Zabbix Agent
+![Agent Log](zabbix-agent.png)
 
 Список команд для установки и конфигурирования Zabbix Agent:
 ```
@@ -55,8 +58,8 @@ sudo apt update
 
 sudo apt install zabbix-agent
 
-sudo sed -i 's/Server=127.0.0.1/Server=10.0.2.30/g' /etc/zabbix/zabbix_agentd.conf
-sudo sed -i 's/ServerActive=127.0.0.1/ServerActive=10.0.2.30/g' /etc/zabbix/zabbix_agentd.conf
+sudo sed -i 's/Server=127.0.0.1/Server=192.168.56.112/g' /etc/zabbix/zabbix_agentd.conf
+sudo sed -i 's/ServerActive=127.0.0.1/ServerActive=192.168.56.113/g' /etc/zabbix/zabbix_agentd.conf
 sudo sed -i 's/Hostname=Zabbix server/Hostname=zbx-host01/g' /etc/zabbix/zabbix_agentd.conf
 
 sudo systemctl restart zabbix-agent
