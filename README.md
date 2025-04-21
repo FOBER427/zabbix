@@ -29,10 +29,10 @@ sudo systemctl enable zabbix-server zabbix-agent2 apache2
 ```
 
 Экран настройки в Web UI Zabbix:
-![Скриншот 1](/imgages/1.png)
+![Скриншот 1](/images/1.png)
 
 Экран после входа со стандартными Credentials Admin/zabbix:
-![Скриншот 2](/imges/2.png)
+![Скриншот 2](/images/2.png)
 
 ---
 
