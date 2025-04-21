@@ -39,10 +39,10 @@ sudo systemctl enable zabbix-server zabbix-agent2 apache2
 ### Задание 2
 
 ### Configuration > Hosts
-![Hosts](Configuration-Hosts.png)
+![Hosts](configuration-hosts.png)
 
 ### Monitoring > Latest data
-![Latest Data](Monitoring-Latest data.png)
+![Latest Data](Monitoring-Latest-data.png)
 
 ### Метрики
 ![Метрики](metrics.png)
